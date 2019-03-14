@@ -21,7 +21,7 @@ vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb:vendor/vend
 vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb:vendor/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb:vendor/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb
 
-# Camera - from riva - V9.2.4.0.NCKMIEK
+# Camera - from rolex - V9.2.4.0.NCKMIEK
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libflash_gpio.so|06aafdce226e43855a230d9840e31446b3262611
 vendor/lib/libflash_pmic.so|6e0efce330476a9844a81fe92a58c4ab7f6a2868
@@ -1676,7 +1676,7 @@ vendor/lib/libchromatix_sony_imx486_ii_snapshot.so|1e4b2251a7265db043a27565158ac
 vendor/lib/libchromatix_sony_imx486_ii_zsl_preview_dw9714v.so|83c27db81fc6824ece5d8bfafc4195401dee22cf
 vendor/lib/libchromatix_sony_imx486_ii_zsl_video_dw9714v.so|f4f5cbec6223052e9ec6f8cca8a17705f942e25c
 
-# Camera mmcamera - from riva - V9.2.4.0.NCKMIEK
+# Camera mmcamera - from rolex - V9.2.4.0.NCKMIEK
 lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so|5ac86a8a3527bce09999e67bcd00be1a2bf03e97
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so|4d133b9cb89ed8f81099320d704298da1ec832bb
 vendor/lib/libmmcamera_cac3_lib.so|458068eed50c464d3b9a28a0ced04af5acc6cc41
@@ -1857,7 +1857,7 @@ vendor/lib64/libmmcamera2_is.so|1967ee25c89987bf1ec222e407d45b04e809cd00
 vendor/lib64/libmmcamera2_q3a_core.so|13c5b5482f45102aa9221080d7ca7fd511f05aca
 vendor/lib64/libmmcamera2_stats_algorithm.so|19f1fde83c46ae759d30f01408282293544a8b26
 
-# Camera firmware - from riva - V9.2.4.0.NCKMIEK
+# Camera firmware - from rolex - V9.2.4.0.NCKMIEK
 vendor/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
 vendor/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 vendor/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw|5ff0d66bcdbb29f4e924d011ae825583e48b3962
@@ -1869,10 +1869,11 @@ vendor/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw|26
 vendor/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
 vendor/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw|de18ccdf371824059acfdf3c7754c6e1bc1c2f8c
 
-# Consumer IR - from riva (oreo)
+# Consumer IR - from rolex
 vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so|b2e014de968f65e013b4dae3fad67f16aa3b0a09
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|bed46204c8200d5f0ec1b37c14ecbc06f424db93
 
 # Display calibration
-vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3b.xml
-vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3b.xml
+vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml
+vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml
+vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml:vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml

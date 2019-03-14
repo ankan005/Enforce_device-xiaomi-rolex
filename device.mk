@@ -15,10 +15,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/riva
+DEVICE_PATH := device/xiaomi/rolex
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/riva/riva-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -36,10 +36,6 @@ PRODUCT_PACKAGES += \
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8920-sku7-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8920-sku7-snd-card_Button_Jack.kl
-
-# Ramdisk
-PRODUCT_PACKAGES += \
-    init.riva.rc
 
 # Inherit from msm8917-common
 $(call inherit-product, device/xiaomi/msm8917-common/msm8917.mk)

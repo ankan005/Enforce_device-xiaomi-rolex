@@ -18,7 +18,7 @@
 # inherit from common msm8917-common
 -include device/xiaomi/msm8917-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/riva
+DEVICE_PATH := device/xiaomi/rolex
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
@@ -27,10 +27,7 @@ TARGET_TS_MAKEUP := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := riva_defconfig
-
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+TARGET_KERNEL_CONFIG := rolex_defconfig
 
 # Inherit the proprietary files
--include vendor/xiaomi/riva/BoardConfigVendor.mk
+-include vendor/xiaomi/rolex/BoardConfigVendor.mk
