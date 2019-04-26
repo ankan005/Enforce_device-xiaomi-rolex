@@ -40,3 +40,4 @@ PRODUCT_COPY_FILES += \
 # Inherit from msm8917-common
 $(call inherit-product, device/xiaomi/msm8917-common/msm8917.mk)
 
+export export HAVOC_BUILD_TYPE=Official
