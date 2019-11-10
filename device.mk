@@ -22,8 +22,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8937
+PRODUCT_SOONG_NAMESPACES += device/xiaomi/rolex
+
+# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Properties
 -include $(DEVICE_PATH)/vendor_prop.mk
@@ -67,15 +71,9 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio@2.0-impl \
+    android.hardware.audio@5.0-impl \
     android.hardware.audio@2.0-service \
-    android.hardware.audio@4.0 \
-    android.hardware.audio@4.0-impl \
-    android.hardware.audio.common@4.0 \
-    android.hardware.audio.common@4.0-util \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.audio.effect@4.0 \
-    android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.1-impl
 
 PRODUCT_COPY_FILES += \
@@ -137,7 +135,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
-    android.hardware.drm@1.1-service.clearkey
+    android.hardware.drm@1.2-service.clearkey
 
 # FM
 PRODUCT_PACKAGES += \

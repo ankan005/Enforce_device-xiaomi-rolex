@@ -1,3 +1,7 @@
+# AptX - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
+lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+
 # Audio ACDB - from riva - V9.2.4.0.NCKMIEK
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|dd53d1cf6642594b839eea05080c585db5e4ca77
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|5488017027154cec53a997d71a44de9115b69a4e
