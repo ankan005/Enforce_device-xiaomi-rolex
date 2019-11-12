@@ -85,8 +85,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=1
 
 # Enforce privapp-permissions whitelist
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.control_privapp_permissions=enforce
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.control_privapp_permissions=enforce
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
